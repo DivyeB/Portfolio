@@ -1,0 +1,40 @@
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: -1;
+}
+
+.first-section {
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+.typewriter{
+    position: relative;
+}
+.typewriter::before{
+    content: "";
+    right: -8px;
+    top: 50%;
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    background: rgba(0, 166, 215, 1);
+    transform: translateY(-45%);
+    animation: blink 0.7s infinite;
+} 
+.typewriter.stop-blinking::before{
+    animation: none;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0%;
+    }
+    0%, 100% {
+        opacity: 100%;
+    }
+}
