@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/external.css">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Source Code Pro', monospace;
+            background-image: radial-gradient(#ffffff7f 1px, transparent 0);
+            background-size: 30px 30px;
+            box-sizing: border-box;
+        }
+        .boxshadow:hover{
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <header class="bg-black text-white py-4 px-4">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-bold">Divye Bajaj</h1>
+        </div>
+    </header>
+    <hr>
+    <main class="container mx-auto py-8 px-4">
+        <section>
+
+        </section>
+        <section class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Professional Summary</h2>
+            <p>Motivated B.Tech student specializing in Mechanical Engineering (Electric Vehicles) with expertise in web development technologies including HTML, CSS, JavaScript, Node.js, Express, SQL, and MongoDB. Possess intermediate knowledge of Java programming and strong design thinking and creative abilities. Seeking an opportunity to apply and enhance technical skills in an innovative environment.</p>
+        </section>
+        <section class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Skills</h2>
+            <ul class="list-disc pl-4">
+                <li>Technical: HTML, CSS, JavaScript, Node.js, Express, SQL, MongoDB, Java, Python</li>
+                <li>Engineering: CATIA, MATLAB</li>
+                <li>Non-Technical: Adobe Creative Cloud, Figma, Canva, MS Office</li>
+            </ul>
+        </section>
+        <section class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Education</h2>
+            <p>2022 - 2026<br>
+            Netaji Subhas University of Technology, Delhi - B.Tech<br>
+            Mechanical Engineering - Electric Vehicles<br>
+            CGPA: 8.24</p>
+        </section>
+        <section class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Projects</h2>
+            <p><strong>Simon Game (Memory Based Online Game):</strong><br>
+            Developed an interactive memory-based game using JavaScript. Utilized arrays to generate random color sequences, enhancing gameplay and user interaction.</p>
+            <p><strong>User Data Storage Web App:</strong><br>
+            Created a website with a data storage form using Node.js and Express. Integrated MailChimp API for efficient data management, handling user data seamlessly. Employed Bootstrap for a responsive and modern frontend design.</p>
+        </section>
+        <section>
+            <h2 class="text-xl font-bold mb-4">Leadership Experience</h2>
+            <p><strong>DevComm, NSUT (Production Head):</strong></p>
+            <ul><li>Led a team of UI/UX designers and content creators</li> <li>Producing web designs and over 20 social media posts for NSUT's technical society.</li> <li>Directed video editing projects for engaging visual content.</li></ul>
+            <p><strong>Moksha-Innovision’24, NSUT (Design Coordinator):</strong></p>
+            <ul><li>Created 15+ merchandise designs for the annual fest's website, enhancing visual appeal and driving sales.</li><li>Developed impactful social media content for sponsorships, entries, and events.</li></ul>
+        </section>
+    <section class="flex justify-center items-center py-8">
+        <button onclick="document.getElementById('dowload-link').click()" class="boxshadow bg-black text-center font-extrabold p-2 border hover:shadow-none hover:bg-white hover:text-black">Download Resume</button>
+        <a id="dowload-link" href="Divye Bajaj - Resume.pdf" download hidden></a>
+    </section>
+    </main>
+    <hr>
+    <footer class="bg-black text-center py-4">
+        <p>© 2024 Divye Bajaj</p>
+    </footer>
+</body>
+</html>
