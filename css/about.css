@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .blur-box {
+        width: 40vh;
+        height: 16vh;
+        -webkit-filter: blur(70px);
+        filter: blur(70px);
+        position: fixed;
+    }
+    
+    .blur-box.right-0 {
+        right: 10px;
+        top: 50vh;
+    }
+    
+    .blur-box.left-0 {
+        left: 10px;
+        top: 10vh;
+    }
+    
+    .blur-box.bottom-4 {
+        left: 10px;
+        top: 90vh;
+    }
+}
